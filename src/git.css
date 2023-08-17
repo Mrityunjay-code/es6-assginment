@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Body or Container Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b0ddf2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input.n1 {
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  button.n2 {
+    height: 40px;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-left: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.n2:hover {
+    background-color: darkblue;
+  }
+  
+  /* User Details Styles */
+   div {
+     /* border: 1px solid #0f0f0f;  */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  } 
+  
+  div p {
+    margin: 5px 0;
+    color: rgb(15, 15, 15);
+   
+  }
+  
+  div img {
+    width: 30%;
+    height: 30%;
+     border-radius: 50%; 
+    margin-top: 10px;
+    margin-left: 6px;
+  }
+  
